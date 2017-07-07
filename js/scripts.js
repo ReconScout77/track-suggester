@@ -9,15 +9,15 @@ $(document).ready(function() {
 
     if (nameInput, programmerTypeInput && interestInput && workplaceInput) {
       if(interestInput === "mobile") {
-        $("#java").show();
+        $("#result").text("Java!");
       } else if (programmerTypeInput === "front" && interestInput === "any" && workplaceInput != "govern") {
-        $("#css").show();
+        $("#result").text("CSS!");
       } else if (workplaceInput === "small") {
-        $("#ruby").show();
+        $("#result").text("Ruby!");
       } else if (programmerTypeInput === "back") {
-        $("#php").show();
+        $("#result").text("PHP!");
       } else {
-        $("#c").show();
+        $("#result").text("C#!");
       }
     }
   });
