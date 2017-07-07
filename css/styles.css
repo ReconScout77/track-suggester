@@ -9,3 +9,8 @@
 button {
   margin-left: 45%
 }
+
+.resultBox {
+  text-align: center;
+  margin-top: 50px;
+}
