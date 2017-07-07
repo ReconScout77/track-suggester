@@ -9,6 +9,41 @@
   </head>
 
   <body>
+    <div class="jumbotron">
+      <h1>What Epicodus track should you take?</h1>
+    </div>
 
+    <div class="container">
+
+      <form id="answers">
+        <label for="name"><h3>What is your name?</h3></label>
+        <input id="name" type="text">
+        <br>
+
+        <label><h3>Are you more interested in front-end or back-end programming?</h3></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="programmerType" value="front">
+            Front-end
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="programmerType" value="back">
+            Back-end
+          </label>
+        </div>
+
+
+        <button type="submit" class="btn btn-info">I wanna know!</button>
+      </form>
+
+
+    </div>
+    <div class="container">
+      <div id="result">
+        <h2>Results!</h2>
+      </div>
+    </div>
   </body>
 </html>
