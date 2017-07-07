@@ -1,1 +1,11 @@
+.jumbotron {
+  background-color: #7be0fe;
+  text-align: center;
+}
+.form-control {
+  width: 200px;
+}
 
+button {
+  margin-left: 45%
+}

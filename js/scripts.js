@@ -9,7 +9,7 @@ $(document).ready(function() {
     var abcInput = $("input:radio[name=abc]:checked").val();
     var numInput = parseInt($("input#num").val());
 
-    if (nameInput, programmerTypeInput && interestInput && workplaceInput) {
+    if (nameInput, programmerTypeInput && interestInput && workplaceInput && abcInput && numInput) {
       if(interestInput === "mobile") {
         $("#result").text("Java!");
       } else if (programmerTypeInput === "front" && interestInput === "any" && workplaceInput != "govern") {
@@ -21,6 +21,8 @@ $(document).ready(function() {
       } else {
         $("#result").text("C#!");
       }
+    } else {
+      $("#result").text("");
     }
   });
 });
